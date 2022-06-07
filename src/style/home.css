@@ -1,5 +1,5 @@
 .hero {
-    background-image   : url("../images/car.jpg");
+    background-image   : url("../assets/car.jpg");
     background-repeat  : no-repeat;
     background-size    : cover;
     background-position: 50% 50%;

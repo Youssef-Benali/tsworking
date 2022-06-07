@@ -1,0 +1,25 @@
+.navbar {
+    position: relative;
+}
+
+.navbar__icon {
+    position : absolute;
+    top      : 2rem;
+    right    : 2rem;
+    font-size: 4rem;
+    width    : 48px;
+    color    : white;
+}
+
+.navbar__icon:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar__icon {
+        top      : 4rem;
+        right    : 6rem;
+        font-size: 6rem;
+        width    : 56px;
+    }
+}

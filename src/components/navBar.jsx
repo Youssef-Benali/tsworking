@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const NavBar = () => {
+import { AiOutlineMenu } from "react-icons/ai";
+
+import "../style/navBar.css";
+
+class NavBar extends React.Component {
+  state = {};
+
+  render() {
     return (
-        <nav>
-            
-        </nav>
+      <div className="navbar">
+        <AiOutlineMenu className="navbar__icon" />
+      </div>
     );
-};
+  }
+}
 
 export default NavBar;
