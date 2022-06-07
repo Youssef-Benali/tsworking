@@ -1,0 +1,38 @@
+.services {
+    gap: 2rem;
+}
+
+.services__heading h1 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+.services__heading h1,
+.services__heading p {
+    text-align: center;
+}
+
+/* services cards */
+
+.services__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services__icon{
+    margin: 1rem 0;
+    font-size: 54px;
+}
+
+.services__header{
+    margin: 1rem 0;
+    font-size: 2.3rem;
+}
+
+.services__description{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}

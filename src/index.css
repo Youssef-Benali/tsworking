@@ -5,7 +5,7 @@
 /* Color palette */
 :root {
   --color-primary  : #2584ff;
-  --color-secondary: #00d9ff;
+  --color-secondary: #ff006a;
   --color-accent   : #ff3400;
 }
 
@@ -104,7 +104,11 @@ a {
 }
 
 .btn-primary {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary);
+}
+
+.btn-secondary{
+  background-color: var(--color-secondary);
 }
 
 /* icons */
